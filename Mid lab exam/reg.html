@@ -1,8 +1,14 @@
 <html>
+
 <head>
-<title>HTML Forms</title>
+<title>Registration Forms</title>
 </head>
 <body>
+  <h> Registration From </h>
+  <form method ="post" action=" reg.php">
+    <fieldset>
+      <legend> <h>Signup</h></legend>
+   
 <h2>Name</h2>
 <form>
   <label for="name">Your name:</label><br>
@@ -17,7 +23,7 @@
   <input type="submit" value="Submit">
 </form>
 
-<fieldset>
+
 <legend><h2>Gender</h2></legend>
 <table>
     <input type="radio" name="abc"  value=""> Male  
@@ -25,7 +31,7 @@
     <input type="radio" name="abc"  value=""> Other
     
 </table>
-</fieldset>
+
 <input type="submit" value="Submit">
 
 <h1>Date of Birth</h1>
@@ -39,6 +45,12 @@
   <input type="submit" value="Submit">
 </form>
 
+  <tr>
+    <td> Address: </td>
+    <td> <textarea> </textarea></td>
+  </tr>
+
+
 <h1>Degree</h1>
 <form>
   <input type="checkbox" id="ssc" name="degree" value="ssc">
@@ -48,7 +60,7 @@
   <input type="checkbox" id="bsc" name="degree" value="bsc">
   <label for="bsc">BSC</label><br>
   </form>
-</fieldset>
+
 <input type="submit" value="Submit">
 
 <form>
@@ -64,7 +76,7 @@
 </form>
 <input type="submit" value="Submit">
 
-<fieldset>
+
     <legend><h2>Degree</h2></legend>
         <table>
         <tr>
@@ -72,10 +84,7 @@
             <td><input type="text" name="" value="" /></td>
         </tr>
         
-      <tr>
-        <td> Address: </td>
-        <td> <textarea> </textarea></td>
-      </tr>
+      
         <tr>
             <td>Image:</td>
             <td><input type="file" name="" value="" /></td>
@@ -84,5 +93,5 @@
 
     <input type="submit" value="Submit">
 
-    </fieldset>
    
+  </fieldset>
