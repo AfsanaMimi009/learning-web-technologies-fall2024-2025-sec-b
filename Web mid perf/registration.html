@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+
+        <h1 style="text-align:center">Registration form</h1>
+
+        <form action="reg.php" method="POST">
+            <fieldset>
+                <legend>Signup</legend>
+            <table>
+                <tr>
+                    <td>
+                        Name : 
+                    </td>
+                    <td>
+                        <input type="text"  name="name" value=" " />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Id :
+                    </td>
+                    <td>
+                        <input type="number" name="id" value=" "/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password : 
+                    </td>
+                    <td>
+                        <input type="password" name="password" value=""/>
+                    </td>
+                </tr>
+                
+                    <tr>
+                        <td>
+                           Confirm Password : 
+                        </td>
+                        <td>
+                            <input type="Confirm password"  name="Confirm password" value=" "/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>User Type</td>
+                        <td>
+                            <select name="role">
+                                <option value="admin">Admin</option>
+                                <option value="user">User</option>
+                            </select>
+                            
+                        </td>
+                    </tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" placeholder="submit" value="Sign Up"/>
+                        <input type="reset" placeholder="reset" value="Sign In"/> 
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        </form>
+    </body>
+</html>
