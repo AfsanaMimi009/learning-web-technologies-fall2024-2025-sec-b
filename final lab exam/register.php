@@ -19,9 +19,11 @@ $sql = "INSERT INTO employees (name, contact_no, username, password) VALUES ('$n
 
 if ($conn->query($sql) === TRUE) {
     echo "New employee registered successfully";
+    echo '<br><a href="login.html">LogIN</a>';
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
 $conn->close();
 ?>
+
